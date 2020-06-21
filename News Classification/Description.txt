@@ -1,0 +1,49 @@
+Data:
+
+ News Classification Dataset
+	The News Classification Dataset has 7600 news items classified in four categories: World, Business, Sports, and SciTech. The data is in JSON format. The text of the article is tagged by the keyword "Content" and the category is tagged by the keyword "Label".
+
+
+Goal:
+	Our task is to build a classifier for this dataset using neural networks. In addition to the actual classifier, we experiment with different options for the structure of the network (the number of layers. the size of each layer) as well as the loss function and optimizer.
+
+
+Library used:
+
+1. Pandas
+2. simplejason
+3. nltk
+4. keras
+5. sklearn
+6. tensorflow
+
+
+
+Preprocessing:
+	
+We have total 7600 contents and the corresponding label. We have 4 distinct labels i.e we have total 4 target class.
+
+
+1. We make two final lists - content & label (target class)
+2. Then we form the vocabulary set of size 20585 words. 
+3. We then remove the stopwords. 
+4. Then we represent each content as a list of 20421 elements of 0's and 1's.
+5. Then we do label encoding and one hot encoding of the target class. 
+   Each target class is now a list of 4 elements of 0’s and 1's.(as we have total 4 target classes) 
+
+
+
+
+Model Fitting:
+
+1. Train test split
+2. Then we fit our neural network model.
+3. We choose different model hyper-parameters of the model and check the result. 
+ 	 We choose different activation function for different layers,different batch size,different no of epochs,different no of nodes in each layer,different type of loss function and we check how it affects our result.Each time before checking the result on test data we first check the cross-validation score.
+	
+
+Different Activation Functions used - 
+		1.Relu
+		2.tanh
+		3.Sigmoid
+		4.Softmax

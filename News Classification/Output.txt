@@ -1,0 +1,91 @@
+		 MODEL 1
+
+
+
+Ten fold cross validation of model 1 is :  [84.74, 84.56, 85.79, 86.67, 85.44, 85.61, 84.56, 83.68, 85.61, 84.74]
+
+
+Accuracy is :  0.8531578947368421
+Precision is :  0.8121827411167513
+F1 score is :  0.7872078720787207
+
+
+
+		 MODEL 2
+
+
+
+Ten fold cross validation of model 2 is :  [80.0, 69.12, 81.93, 87.02, 75.96, 87.19, 85.26, 77.37, 86.32, 87.19]
+
+
+Accuracy is :  0.8605263157894737
+Precision is :  0.8036951501154734
+F1 score is :  0.8169014084507042
+
+
+
+		 MODEL 3
+
+
+
+Ten fold cross validation of model 3 is :  [84.74, 83.16, 86.32, 87.02, 85.09, 84.56, 84.04, 84.21, 85.09, 84.04]
+
+
+Accuracy is :  0.9173684210526316
+Precision is :  0.7712895377128953
+F1 score is :  0.7638554216867469
+
+
+
+		 MODEL 4
+
+
+
+Ten fold cross validation of model 4 is :  [93.33, 92.54, 92.94, 93.82, 93.16, 92.76, 93.03, 92.11, 92.37, 93.03]
+
+
+Accuracy is :  0.9285526315789474
+Precision is :  0.7752293577981652
+F1 score is :  0.7906432748538011
+
+
+
+		 MODEL 5
+
+
+
+Ten fold cross validation of model 5 is :  [93.38, 92.59, 92.98, 93.11, 93.2, 93.51, 93.29, 92.32, 92.15, 92.59]
+
+
+Accuracy is :  0.9301315789473684
+Precision is :  0.7837837837837838
+F1 score is :  0.8064889918887602
+
+
+
+		 MODEL 6
+
+
+
+Ten fold cross validation of model 6 is :  [92.28, 91.67, 92.98, 92.81, 92.15, 92.72, 91.54, 91.67, 92.28, 91.67]
+
+
+Accuracy is :  0.9180263157894737
+Precision is :  0.7822784810126582
+F1 score is :  0.7592137592137592
+
+
+
+		 MODEL 7
+
+
+
+Ten fold cross validation of model 7 is :  [94.08, 92.89, 92.94, 94.04, 93.42, 94.61, 93.82, 93.11, 92.68, 93.55]
+
+
+Accuracy is :  0.8721052631578947
+Precision is :  0.7982062780269058
+F1 score is :  0.823121387283237
+
+
+
