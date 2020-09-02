@@ -1,4 +1,6 @@
-Due to some privacy policy code is not uploaded yet. 
+Worked on NER during my Internship in Intellect Design Arena.
+
+Due to some privacy policy the code is not uploaded yet. 
 
 Used Spacy Model.
 
